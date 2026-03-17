@@ -181,6 +181,17 @@ import CategoryGrid from '../components/CategoryGrid.astro';
     </div>
   </section>
 
+  <!-- 迷你知識圖譜 -->
+  <section class="mini-graph-section">
+    <a href="/graph" class="mini-graph-link">
+      <div class="mini-graph-text">
+        <h3>🕸️ 知識圖譜</h3>
+        <p>每篇文章都不是孤島——點擊探索台灣知識的連結網絡</p>
+      </div>
+      <div id="mini-graph" class="mini-graph-container"></div>
+    </a>
+  </section>
+
   <section class="language-statement">
     <div class="language-inner">
       <h3>🖊️ 為什麼用繁體中文？</h3>
@@ -326,6 +337,94 @@ import CategoryGrid from '../components/CategoryGrid.astro';
       </div>
     </div>
   </section>
+
+<script is:inline src="https://d3js.org/d3.v7.min.js"></script>
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('mini-graph');
+    if (!container) return;
+
+    const categories = [
+      { id: 'history', name: '歷史', color: '#dc2626' },
+      { id: 'geography', name: '地理', color: '#2563eb' },
+      { id: 'culture', name: '文化', color: '#7c3aed' },
+      { id: 'food', name: '美食', color: '#ea580c' },
+      { id: 'art', name: '藝術', color: '#db2777' },
+      { id: 'music', name: '音樂', color: '#4f46e5' },
+      { id: 'technology', name: '科技', color: '#0891b2' },
+      { id: 'nature', name: '自然', color: '#16a34a' },
+      { id: 'people', name: '人物', color: '#ca8a04' },
+      { id: 'society', name: '社會', color: '#64748b' },
+      { id: 'economy', name: '經濟', color: '#0d9488' },
+      { id: 'lifestyle', name: '生活', color: '#f97316' },
+    ];
+
+    const nodes = [
+      { id: 'taiwan', name: 'Taiwan.md', size: 18, color: '#2d5016', group: 'core' },
+      ...categories.map(c => ({ id: c.id, name: c.name, size: 12, color: c.color, group: 'category' }))
+    ];
+
+    const edges = categories.map(c => ({ source: 'taiwan', target: c.id }));
+    // Cross-links
+    const crossLinks = [
+      ['history', 'people'], ['history', 'society'], ['culture', 'art'],
+      ['culture', 'music'], ['food', 'lifestyle'], ['technology', 'economy'],
+      ['nature', 'geography'], ['people', 'art'], ['society', 'economy'],
+      ['music', 'culture'], ['lifestyle', 'food'], ['geography', 'nature']
+    ];
+    crossLinks.forEach(([s, t]) => edges.push({ source: s, target: t }));
+
+    const width = container.clientWidth;
+    const height = 300;
+
+    const svg = d3.select('#mini-graph').append('svg')
+      .attr('viewBox', `0 0 ${width} ${height}`)
+      .attr('preserveAspectRatio', 'xMidYMid meet');
+
+    const simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(edges).id(d => d.id).distance(60))
+      .force('charge', d3.forceManyBody().strength(-120))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(d => d.size + 4));
+
+    const link = svg.append('g')
+      .selectAll('line')
+      .data(edges)
+      .join('line')
+      .attr('stroke', '#d1d5db')
+      .attr('stroke-width', 1)
+      .attr('stroke-opacity', 0.5);
+
+    const node = svg.append('g')
+      .selectAll('circle')
+      .data(nodes)
+      .join('circle')
+      .attr('r', d => d.size)
+      .attr('fill', d => d.color)
+      .attr('fill-opacity', 0.85)
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 1.5);
+
+    const label = svg.append('g')
+      .selectAll('text')
+      .data(nodes)
+      .join('text')
+      .text(d => d.name)
+      .attr('text-anchor', 'middle')
+      .attr('dy', d => d.size + 14)
+      .attr('font-size', d => d.group === 'core' ? '11px' : '9px')
+      .attr('font-weight', d => d.group === 'core' ? '700' : '500')
+      .attr('fill', '#374151')
+      .attr('pointer-events', 'none');
+
+    simulation.on('tick', () => {
+      link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      node.attr('cx', d => d.x).attr('cy', d => d.y);
+      label.attr('x', d => d.x).attr('y', d => d.y);
+    });
+  });
+</script>
 </Layout>
 
 <style>
@@ -705,6 +804,61 @@ import CategoryGrid from '../components/CategoryGrid.astro';
   .feature-btn.secondary:hover {
     background: #2d5016;
     color: white;
+  }
+
+  /* ===== MINI GRAPH ===== */
+  .mini-graph-section {
+    max-width: 1200px;
+    margin: 2rem auto 4rem;
+    padding: 0 2rem;
+  }
+
+  .mini-graph-link {
+    display: block;
+    text-decoration: none;
+    background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #f0f9ff 100%);
+    border: 2px solid #d1fae5;
+    border-radius: 20px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .mini-graph-link:hover {
+    border-color: #2d5016;
+    box-shadow: 0 8px 24px rgba(45, 80, 22, 0.15);
+    transform: translateY(-2px);
+  }
+
+  .mini-graph-text {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .mini-graph-text h3 {
+    font-family: "Noto Serif TC", serif;
+    font-size: 1.3rem;
+    color: #1f2937;
+    margin: 0 0 0.5rem;
+  }
+
+  .mini-graph-text p {
+    color: #6b7280;
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .mini-graph-container {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .mini-graph-container svg {
+    width: 100%;
+    height: 100%;
   }
 
   /* ===== CATEGORIES SECTION ===== */
