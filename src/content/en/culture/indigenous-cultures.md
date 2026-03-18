@@ -9,7 +9,7 @@ sourceHash: "c5d9e3"
 
 # Taiwan's Indigenous Cultures
 
-Taiwan's sixteen officially recognized Indigenous peoples possess cultural traditions stretching back thousands of years. From the weaving artistry of the Truku to the war-ritual chants of the Tsou, from the slate-stone architecture of the Paiwan to the harvest festival dances of the Amis, each group has developed a unique and sophisticated cultural system. After enduring cultural suppression during the Japanese colonial era and the post-war decades, Indigenous cultures have experienced a remarkable revival over the past thirty years: language education has returned to schools, traditional ceremonies have been restored, and contemporary Indigenous artists are gaining recognition on the international stage. This is a cultural renaissance rooted in questions of origin, identity, and creativity.
+Taiwan's sixteen officially recognized Indigenous peoples possess cultural traditions stretching back thousands of years, and together with the Plains Indigenous groups still seeking formal recognition, the island's Austronesian cultural diversity is far greater than commonly imagined. From the weaving artistry of the Truku to the war-ritual chants of the Tsou, from the slate-stone architecture of the Paiwan to the diverse seasonal rituals of the Amis, each group has developed a unique and sophisticated cultural system. After enduring cultural suppression during the Japanese colonial era and the post-war decades, Indigenous cultures have experienced a remarkable revival over the past thirty years: language education has returned to schools, traditional ceremonies have been restored, and contemporary Indigenous artists are gaining recognition on the international stage. This is a cultural renaissance rooted in questions of origin, identity, and creativity.
 
 **Key features:** Diversity across sixteen peoples, ceremonial rituals, craft aesthetics, language revitalization, contemporary innovation
 
@@ -17,9 +17,9 @@ Taiwan's sixteen officially recognized Indigenous peoples possess cultural tradi
 
 ## Finding a Voice Between Mountains and Sea
 
-In 2024, a young Atayal woman named Yuma Taru performed at Lincoln Center in New York, singing ancestral poetry in her tribal language. The audience was deeply moved. After the performance, an American audience member asked her, "Why is your music so profound?" Yuma answered, "Because these songs carry five thousand years of our memory."
+In 2017, Puyuma singer Sangpuy Katatepan Mavaliyw won the Golden Melody Award for Best Aboriginal Language Album with his all-Puyuma-language album *Yaangad*. On stage, he thanked the ancestral spirits in Puyuma before telling the audience in Mandarin: "These songs — my village taught them to me." That same year, Paiwan choreographer Bulareyaung Pagarlava toured international arts festivals with his dance company, telling stories of tribal life through the language of the body.
 
-This scene captures the contemporary condition of Taiwan's Indigenous cultures: they are at once inheritors of ancient tradition and pioneers of modern innovation. From languages that nearly vanished to internationally acclaimed contemporary works, Taiwan's Indigenous cultures are undergoing a profound process of revival and rebirth.
+These moments capture the contemporary condition of Taiwan's Indigenous cultures: they are at once inheritors of ancient tradition and pioneers of modern innovation. From languages that nearly vanished to internationally acclaimed contemporary works, Taiwan's Indigenous cultures are undergoing a profound process of revival and rebirth.
 
 > "We are not museum specimens — we are a living culture."
 
@@ -29,11 +29,11 @@ These words from Paiwan artist Sakuliu Pavavaljung precisely define the core spi
 
 ## Sixteen Peoples: A Garden of Diverse Yet United Cultures
 
-Taiwan's officially recognized Indigenous peoples number sixteen: Amis, Atayal, Paiwan, Bunun, Rukai, Tsou, Saisiyat, Yami (Tao), Thao, Kavalan, Truku, Sakizaya, Seediq, Hla'alua, Kanakanavu, and the Plains Indigenous groups.
+Taiwan's officially recognized Indigenous peoples number sixteen: Amis, Atayal, Paiwan, Bunun, Puyuma, Rukai, Tsou, Saisiyat, Yami (Tao), Thao, Kavalan, Truku, Sakizaya, Seediq, Hla'alua, and Kanakanavu. In addition, several Plains Indigenous groups (Pingpu zu qun) — including the Siraya, Ketagalan, Pazeh, and Kaxabu, among others — have long sought official recognition. Their cultural revitalization movements are an important dimension of Taiwan's Indigenous issues (see the "Plains Indigenous Groups" section below).
 
 Each group has distinctive cultural characteristics:
 
-**Amis**: The largest group (approximately 210,000 people), known for their matrilineal society and age-grade system. The exuberant singing and dancing of their harvest festival reflects the open and generous character of a maritime people.
+**Amis**: The largest group (approximately 210,000 people), known for their matrilineal society and age-grade system. Each village maintains rich seasonal rituals, of which the Ilisin (often translated as "Harvest Festival," though names and meanings vary across communities) is the most widely known. The diverse forms of song and dance reflect the open and generous character of a maritime people.
 
 **Atayal**: The most widely distributed group, renowned for their weaving craft and facial tattooing tradition. "Gaga" (ancestral teachings) forms their core value system, emphasizing harmony with nature and ancestral spirits.
 
@@ -42,6 +42,8 @@ Each group has distinctive cultural characteristics:
 **Bunun**: Celebrated for their Pasibutbut (eight-part polyphonic chant for millet harvest prayer), which has been recognized by UNESCO as a world cultural heritage. They are also known for their courageous hunting culture.
 
 **Rukai**: Culturally close to the Paiwan, the Rukai use the lily flower, clay pots, and glass beads as cultural symbols. They maintain a deeply animistic worldview and a profound connection with nature.
+
+**Puyuma**: Known for their rigorous age-grade system and coming-of-age ceremonies (the Monkey Festival and Grand Hunting Festival). They possess a deep song tradition, and many prominent contemporary musicians have emerged from Puyuma communities.
 
 **Tsou**: Smaller in population but culturally distinctive, characterized by the Mayasvi (war ritual) and the kuba (men's meeting house) system.
 
@@ -53,7 +55,7 @@ Each group has its own language, rituals, crafts, and social organization, yet t
 
 Indigenous ceremonies are not simply celebrations — they are the spiritual compass and cultural classroom of entire communities.
 
-**Harvest Festival / Ilisin (Amis)**: Held annually from July to September, celebrating the millet harvest and serving as an important coming-of-age occasion. Men are organized into age grades from youth to elders, forming a complete social hierarchy. Women add beauty to the festival through song and dance.
+**Ilisin / Seasonal Rituals (Amis)**: Often collectively called the "Harvest Festival," though each village has its own name, timing, and meaning for these ceremonies. Generally held between July and September, they are a vital occasion for the operation of the age-grade system and intergenerational transmission. Men are organized into age grades from youth to elders, forming a complete social hierarchy. Women add beauty to the ceremonies through song and dance. These rituals are not simply "harvest celebrations" — they are the core expression of tribal social order and ethnic identity.
 
 **Sowing Festival (Bunun)**: Held in spring during planting season, featuring the eight-part polyphonic prayer to the heavenly deity for a bountiful harvest. This a cappella harmonization technique is extraordinarily complex, reflecting the highly developed musical culture of the Bunun.
 
@@ -93,6 +95,8 @@ Today, these traditional crafts face the dual challenge of a "succession crisis"
 
 Language is the carrier of culture. When a language disappears, the entire cultural system it supports comes under threat. Taiwan's Indigenous languages were once on the brink of extinction, but they are now experiencing a remarkable revival.
 
+It is important to note that Indigenous languages number far more than "sixteen." Under the Council of Indigenous Peoples' language certification system, there are currently **42 recognized language varieties** (including languages and their dialects), and the actual linguistic diversity is even greater. Within a single people, there may be multiple dialects different enough to be mutually unintelligible.
+
 **The severity of the crisis**: Statistics show that fluent speakers of Indigenous languages are concentrated primarily among people over 55. The number of younger people who can speak their ancestral language fluently has dropped sharply. Some languages — such as Thao and Kavalan — have fewer than a hundred native speakers remaining.
 
 **Revitalization efforts**:
@@ -131,6 +135,26 @@ The success of the naming movement opened a new chapter in Indigenous rights dis
 
 ---
 
+## Plains Indigenous Groups: An Unfinished Journey Toward Recognition
+
+Any discussion of Taiwan's Indigenous peoples must include the **Plains Indigenous groups** (Pingpu zu qun — not "Pingpu zu," since this is a collective term for multiple distinct peoples). The Plains Indigenous groups are Austronesian peoples who historically inhabited the western plains and foothills of Taiwan, including the Ketagalan, Taokas, Pazeh, Kaxabu, Papora, Babuza, Hoanya, Siraya, Makatao, and Taivoan, among others.
+
+**History and present situation:**
+During the Dutch and Qing eras, the Plains Indigenous groups experienced large-scale cultural assimilation due to their earlier contact with colonial powers. Under Japanese rule, they were classified as "Plains tribes" (Peipo-zoku) or "civilized savages" (jukuban), and after the war, they were excluded from official Indigenous identity recognition. Over centuries, many Plains Indigenous languages have nearly disappeared, and traditional rituals survive in only a few communities.
+
+**The recognition movement:**
+In recent years, Plains Indigenous groups have actively pushed for official recognition as Indigenous peoples. In 2016, President Tsai Ing-wen pledged to advance the restoration of Plains Indigenous identity, but the legislative process remains ongoing. The Siraya people's pursuit of recognition through administrative litigation is among the most prominent examples.
+
+**Cultural revitalization:**
+Despite severe language and cultural loss, some Plains Indigenous groups are actively pursuing cultural revitalization:
+- The Siraya "Night Ritual" (such as the Jibei Night Ritual and Toushe Night Ritual) continues to be practiced
+- The Pazeh community is working to revive the Pazeh language, a case study in the revitalization of critically endangered languages
+- Plains Indigenous groups across Taiwan are actively compiling oral histories and cultural heritage materials
+
+The experience of the Plains Indigenous groups reminds us that the scope of Indigenous peoples should not be limited to the sixteen officially recognized groups — Taiwan's Austronesian cultural diversity is far richer than commonly assumed.
+
+---
+
 ## Contemporary Indigenous Art on the World Stage
 
 In recent years, Taiwan's Indigenous artists have delivered outstanding performances on the international stage, demonstrating a powerful fusion of traditional culture and contemporary creation.
@@ -138,7 +162,7 @@ In recent years, Taiwan's Indigenous artists have delivered outstanding performa
 **Visual arts**:
 - **Sakuliu Pavavaljung** (Paiwan): Reinterprets Paiwan totemic imagery through modern sculptural techniques; works collected by museums in multiple countries.
 - **Etan Pavavaljung** (Paiwan): Following in his father Sakuliu's artistic path, he creates installation art blending tradition and the contemporary.
-- **Rahic Talif** (Paiwan): Explores Indigenous identity through photography and video works.
+- **Rahic Talif** (Amis): Creates large-scale installation art using driftwood and marine debris, exploring the relationship between humans and nature, and between tribal and modern society.
 
 **Performing arts**:
 - **Cloud Gate Dance Theatre**: Founder Lin Hwai-min's work *Rice* incorporates Indigenous music and dance elements.
@@ -146,7 +170,7 @@ In recent years, Taiwan's Indigenous artists have delivered outstanding performa
 - **Bulareyaung Dance Company**: Founded by Paiwan choreographer Bulareyaung Pagarlava, the company has won multiple international awards.
 
 **Music**:
-- **Samingad (Puyuma)**: Interprets Indigenous ancient melodies with a transcendent voice; nominated for a Grammy Award.
+- **Samingad (Puyuma)**: Interprets Indigenous ancient melodies with a transcendent voice; multiple Golden Melody Award winner, widely regarded as the "Queen of Indigenous music."
 - **Suming (Amis)**: Blends the Amis language with modern rock to create a distinctive "Indigenous rock" sound.
 - **Sangpuy (Puyuma)**: Creates contemporary folk music with guitar and ancient melodies, forging a singular voice in the Mandarin music world.
 
