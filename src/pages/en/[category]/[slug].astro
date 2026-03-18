@@ -626,15 +626,28 @@ const processedContent = marked.parse(resolvedContent, { renderer });
   }
 
   .content h2 {
-    font-size: 1.875rem;
-    font-weight: 600;
-    border-bottom: 3px solid var(--categoryColor);
-    padding-bottom: 0.5rem;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 5rem 0 1.75rem 0;
+    border-bottom: 2px solid var(--categoryColor);
+    padding-bottom: 0.75rem;
   }
 
   .content h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 4rem 0 1.25rem 0;
+    padding-left: 0.85rem;
+    border-left: 4px solid var(--categoryColor);
+  }
+
+  .content h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 3rem 0 1rem 0;
+    color: #333;
+    padding-left: 0.85rem;
+    border-left: 3px solid rgba(0,0,0,0.15);
   }
 
   .content p {
