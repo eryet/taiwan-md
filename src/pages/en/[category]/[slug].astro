@@ -574,14 +574,20 @@ const processedContent = marked.parse(resolvedContent, { renderer });
     opacity: 0.9;
   }
 
-  .breadcrumb-header a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
+  .breadcrumb-header a,
+  .breadcrumb-header a:visited,
+  .breadcrumb-header a:link {
+    color: #ffffff !important;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    text-underline-offset: 2px;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
 
   .breadcrumb-header a:hover {
-    text-decoration: underline;
+    color: #ffffff !important;
+    text-decoration-color: rgba(255, 255, 255, 0.92);
   }
 
   .separator {

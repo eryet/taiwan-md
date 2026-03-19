@@ -633,19 +633,24 @@ const processedContent = marked.parse(resolvedContent, { renderer });
     box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
   }
 
-  .breadcrumb-header a {
-    color: #ffffff;
-    text-decoration: none;
+  .breadcrumb-header a,
+  .breadcrumb-header a:visited,
+  .breadcrumb-header a:link,
+  .breadcrumb-header a.breadcrumb-link {
+    color: #ffffff !important;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    text-underline-offset: 2px;
     font-weight: 600;
     border-bottom: none;
     padding-bottom: 0;
-    text-shadow: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
 
   .breadcrumb-header a:hover {
-    color: #ffffff;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.92);
+    color: #ffffff !important;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.92);
   }
 
   .separator {
