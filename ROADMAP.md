@@ -98,6 +98,26 @@ taiwan.md/toolkit/
 - 翻譯品質由母語者審核，非純機翻
 - 建立語系 Issue label（`lang:ja`, `lang:ko`...）方便追蹤
 
+### 🔥 Token Donation — 用你的 AI 額度幫台灣說話
+
+> 「很多人說 token 用不完——那就把剩餘的 token 捐給台灣。」
+
+**概念**：你每月的 Claude / GPT / Gemini 訂閱額度用不完？用它來幫 Taiwan.md 翻譯一篇文章。每個人 10 分鐘，Taiwan.md 就多了一個語言版本。
+
+**做法**：
+1. 從 [翻譯 Prompt Template](./TRANSLATE_PROMPT.md) 複製標準化 prompt
+2. 把任何一篇中文文章 + prompt 餵給你的 AI
+3. 產出的翻譯透過 PR 提交
+4. 母語 reviewer 審核品質後 merge
+
+**為什麼這行得通**：
+- 翻譯是 AI 目前最擅長的任務之一
+- 標準化 prompt 確保品質底線
+- 母語 reviewer 確保文化準確度
+- 每個人只需要貢獻「剩餘算力」，零成本
+
+這等於把 Taiwan.md 的 scaling 策略從「一個人的 cron」變成「全世界 AI 訂閱者的分散式運算」——開源精神 + AI 時代的新貢獻模式。
+
 ---
 
 ## Phase 5：故事化呈現
