@@ -8,7 +8,6 @@ export const homeUI = {
     'hero.stat.democracy.label': 'democracy',
     'hero.stat.chips.number': '90%',
     'hero.stat.chips.label': 'global advanced chips',
-
     'home.hero.subtitle': 'Curating the Deep Narratives of an Island',
     'home.hero.description':
       'The open-source, AI-friendly knowledge base about Taiwan',
@@ -18,7 +17,6 @@ export const homeUI = {
     'home.hero.transparency':
       '⚠️ Some articles on this site are AI-assisted drafts. All content is continuously reviewed and improved by the community. Found an error?',
     'home.hero.transparency.link': 'Let us know',
-
     'home.cover.heading': 'How to Understand Taiwan?',
     'home.cover.lead':
       "Taiwan is an island of just 36,000 square kilometers, yet it contains all the world's complexity.",
@@ -115,7 +113,6 @@ export const homeUI = {
     'hero.stat.democracy.label': '民主',
     'hero.stat.chips.number': '90%',
     'hero.stat.chips.label': '全球先進晶片',
-
     'home.hero.subtitle': '策展島嶼的深度敘事',
     'home.hero.description': '開源、AI-friendly 的台灣完整知識庫',
     'home.hero.highlight': '從多元觀點建構，為全世界策展台灣',
@@ -123,7 +120,6 @@ export const homeUI = {
     'home.hero.transparency':
       '⚠️ 本站部分文章由 AI 輔助產生初稿，所有內容持續由社群審核改善中。發現錯誤？',
     'home.hero.transparency.link': '歡迎指正',
-
     'home.cover.heading': '如何理解台灣？',
     'home.cover.lead':
       '台灣是一座面積只有 36,000 平方公里的島嶼，卻裝著整個世界的複雜度。',
