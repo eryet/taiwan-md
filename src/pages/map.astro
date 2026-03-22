@@ -90,7 +90,7 @@ import markersData from '../data/map-markers.json';
               <span class="stat-label">個知識節點</span>
             </div>
             <div class="stat-item">
-              <span class="stat-number" id="totalCategories">9</span>
+              <span class="stat-number" id="totalCategories">{[...new Set(markersData.map((m: any) => m.category))].length}</span>
               <span class="stat-label">個分類</span>
             </div>
           </div>
