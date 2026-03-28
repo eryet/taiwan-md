@@ -58,14 +58,14 @@ GA4 數據不在 build-time 產生（需要 API credentials），而是：
 ```bash
 # 從本地拉取 GA4 數據
 cd ~/clawd/skills/ga4-analytics-search-indexing-skill/scripts
-GA4_PROPERTY_ID=528789281 npx tsx ga4-taiwan-fetch.ts
+GA4_PROPERTY_ID=<your-property-id> npx tsx ga4-taiwan-fetch.ts
 
 # 複製到 repo
 cp /tmp/ga4-clean.json ~/taiwan-md/public/api/dashboard-analytics.json
 ```
 
-**GA4 Property:** `528789281` (Measurement ID: `G-JGC5W00N7T`)
-**Service Account:** `muse-ga4@muse-analytics-487002.iam.gserviceaccount.com`
+**GA4 Property:** 見本地 TOOLS.md（Property ID + Measurement ID）
+**Service Account:** 見本地 `~/.config/gcloud/` 目錄
 
 📌 **未來計畫：** GitHub Actions cron 每天 UTC 06:00 自動拉取 + commit
 
