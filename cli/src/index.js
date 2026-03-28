@@ -11,6 +11,9 @@ import { quizCommand } from './commands/quiz.js';
 import { exploreCommand } from './commands/explore.js';
 import { diffCommand } from './commands/diff.js';
 import { graphCommand } from './commands/graph.js';
+import { ragCommand } from './commands/rag.js';
+import { contributeCommand } from './commands/contribute.js';
+import { validateCommand } from './commands/validate.js';
 
 const program = new Command();
 
@@ -19,7 +22,7 @@ program
   .description(
     'Taiwan.md — 台灣知識庫 CLI\nSearch, read, and explore 900+ curated articles about Taiwan.',
   )
-  .version('0.3.0');
+  .version('0.4.0');
 
 // Register all commands
 searchCommand(program);
@@ -33,5 +36,8 @@ quizCommand(program);
 exploreCommand(program);
 diffCommand(program);
 graphCommand(program);
+ragCommand(program);
+contributeCommand(program);
+validateCommand(program);
 
 program.parse();
