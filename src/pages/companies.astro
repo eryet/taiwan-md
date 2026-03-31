@@ -450,7 +450,7 @@ const sectors = [...new Set(companies.map(c => c.sector))];
       background: #fff;
       cursor: pointer;
       font-size: 0.85rem;
-      transition: all 0.2s;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
     }
 
     .toggle-btn.active {
@@ -475,7 +475,7 @@ const sectors = [...new Set(companies.map(c => c.sector))];
       display: flex;
       align-items: center;
       gap: 0.3rem;
-      transition: all 0.2s;
+      transition: background 0.2s, border-color 0.2s;
     }
 
     .sector-btn.active {

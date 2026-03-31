@@ -1410,11 +1410,15 @@ background-image: url('https://taiwan.md/assets/svg/taiwan-icon-wiki.svg');
 
       updateSliderPosition();
 
-      // Responsive handling
+      // Responsive handling (debounced to avoid layout thrash)
+      let _pyramidResizeTimer;
       window.addEventListener('resize', () => {
-        sliderRect = null;
-        applyPyramidLayout();
-        updatePyramid(currentYear);
+        clearTimeout(_pyramidResizeTimer);
+        _pyramidResizeTimer = setTimeout(() => {
+          sliderRect = null;
+          applyPyramidLayout();
+          updatePyramid(currentYear);
+        }, 200);
       });
     }
   </script>

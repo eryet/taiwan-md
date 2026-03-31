@@ -874,11 +874,9 @@ const jfClass = [
     font-weight: 600;
   }
 
-  /* justfont loading transition — smooth font swap */
-  .jf-active *,
-  .jf-inactive * {
-    transition: opacity 0.3s ease-out;
-  }
+  /* justfont: no transition needed — fallback fonts (Noto Sans/Serif TC)
+     are visually close enough for a clean swap. See font-display: swap
+     https://web.dev/articles/font-best-practices#use_font-display_swap */
 
   /* Main - full width */
   main {
@@ -914,7 +912,7 @@ const jfClass = [
     text-decoration: none;
     border-bottom: 1px solid #cbd5e1;
     padding-bottom: 1px;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
   }
   main
     a:not(.nav-link):not([class*='btn']):not(.card-link):not(.logo):not(
@@ -954,7 +952,7 @@ const jfClass = [
     font-weight: 700;
     text-decoration: none;
     box-shadow: var(--shadow-card);
-    transition: all 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s, color 0.2s;
     z-index: 40;
   }
   .floating-md:hover {
